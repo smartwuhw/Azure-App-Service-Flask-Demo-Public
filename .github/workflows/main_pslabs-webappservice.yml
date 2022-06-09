@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'PSLabs-WebAppService'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84983324EA084C52B00CF30D69A37E50 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DF4214F845FD4FA5A23E1EAB63F95C6C }}
