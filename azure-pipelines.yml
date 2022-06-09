@@ -8,22 +8,22 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '8629b51d-8055-48a5-b39f-c4b089001096'
+  azureServiceConnectionId: 'f48a44c2-8198-4254-9e1f-861b1f7fe454'
 
   # Web app name
-  webAppName: 'ashewebapp'
+  webAppName: 'MSLabs-webapp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'ashewebapp'
+  environmentName: 'MSLabs-webapp'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.7'
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
